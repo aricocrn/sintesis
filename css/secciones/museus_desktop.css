@@ -1,0 +1,398 @@
+@media screen and (min-width: 768px){
+  body{
+  margin: 0;
+  padding: 0;
+  font-family: Nexa Light, Verdana, Futura, Arial;
+}
+h1, h2, h3, h4{
+  font-family: Nexa Bold, Verdana, Futura, Arial;
+}
+div{
+  overflow: hidden;
+}
+p{
+  width: 400px;
+  font-size: 18px;
+  line-height: 22px;
+}
+h1{
+  width: 400px;
+  color: #333;
+}
+#nav{
+  width: 350px;
+  height: 300px;
+}
+#burguer li{
+  list-style-type: none;
+  width: 30px;
+  height: 5px;
+  margin: 5px;
+  position: absolute;
+  top: 20px;
+  background-color: cyan;
+}
+.checkbox{
+  width: 30px;
+  height: 30px;
+  margin-top: 45px;
+  z-index: 1;
+  cursor: pointer;
+  opacity: 0;
+}
+.checkbox:checked ~ #menu{
+  position: fixed;
+  left: 0;
+  transition: 0.5s;
+}
+#burguer{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 5px;
+}
+#menu{
+  color: rgb(0, 164, 223);
+  height: 20px;
+  overflow: visible;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  position: absolute;
+  top: 125px;
+  left: -100%;
+  transition: 1s;
+  color: #0278AE;
+}
+#menu li{
+  font-size: 12px;
+}
+#menu ul{
+  float: right;
+}
+#menu li{
+  color: rgb(0, 164, 223);
+  margin: 10px;
+  display: inline;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #FFF;
+}
+a:visited{
+  color: #FFF;
+}
+a:hover{
+  color: #000;
+}
+#primer{
+  background-color: #333;
+  width: 100%;
+}
+#primer h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#segon h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#segon p{
+  width: 30%;
+  padding-left: 20px;
+}
+#tercer h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#tercer p{
+  width: 30%;
+  padding-left: 20px;
+}
+#quart h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#quart p{
+  width: 30%;
+  padding-left: 20px;
+}
+#cinque h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#cinque p{
+  padding-left: 20px;
+}
+#primer #contingut{
+  float: left;
+  width: 30%;
+}
+#primer ul{
+  float: left;
+  width: 30%;
+}
+#primer li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: rgb(0, 164, 223);
+}
+a:visited{
+  color: rgb(0, 164, 223);
+}
+a:hover{
+  color: rgb(80, 192, 224);
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    height: 440px;
+    background-color: cyan;
+}
+img{
+    padding-bottom: : 0;
+}
+
+.texto-encima{
+    color: #FFF;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#segon{
+  height: 610px;
+  background-color: #1212;
+}
+#segon img{
+  width: 640px;
+  float: left;
+}
+#segon h1{
+  width: 200px;
+  position: absolute;
+  left: 5px;
+  top: 430px;
+}
+#segon p{
+  float: left;
+  font-size: 14px;
+  width: 370px;
+  color: #333;
+  margin-top: 0px;
+  position: absolute;
+  left: 230px;
+  top: 455px;
+}
+#tercer{
+  height: 640px;
+  background-color: #1212;
+}
+#tercer img{
+  width: 641px;
+  float: left;
+  position: absolute;
+  top: 0px;
+  left: 640px;
+}
+#tercer h1{
+  width: 200px;
+  position: absolute;
+  left: 645px;
+  top: 430px;
+}
+#tercer p{
+  float: left;
+  font-size: 14px;
+  width: 380px;
+  color: #333;
+  margin-top: 0px;
+  position: absolute;
+  left: 840px;
+  top: 455px;
+}
+#quart{
+  height: 640px;
+  background-color: #1212;
+}
+#quart img{
+  width: 653px;
+  position: absolute;
+  top: 725px;
+  left: 0px;
+}
+#quart h1{
+  width: 200px;
+  position: absolute;
+  left: 5px;
+  top: 1160px;
+}
+#quart p{
+  float: left;
+  font-size: 14px;
+  width: 400px;
+  color: #333;
+  margin-top: 0px;
+  position: absolute;
+  left: 185px;
+  top: 1187px;
+}
+#cinque{
+  height: 580px;
+  background-color: #1212;
+}
+#cinque img{
+  width: 640px;
+  position: absolute;
+  top: 725px;
+  left: 640px;
+}
+#cinque h1{
+  width: 200px;
+  position: absolute;
+  left: 645px;
+  top: 1160px;
+}
+#cinque p{
+  float: left;
+  font-size: 14px;
+  width: 365px;
+  color: #333;
+  margin-top: 0px;
+  position: absolute;
+  left: 840px;
+  top: 1187px;
+}
+#sise{
+  height: 645px;
+  background-color: #1212;
+}
+#sise img{
+  width: 640px;
+  position: absolute;
+  top: 1415px;
+  left: 0px;
+}
+#sise h1{
+  width: 200px;
+  position: absolute;
+  left: 5px;
+  top: 1840px;
+}
+#sise p{
+  float: left;
+  font-size: 14px;
+  width: 400px;
+  color: #333;
+  margin-top: 0px;
+  position: absolute;
+  left: 205px;
+  top: 1865px;
+}
+#sete{
+  height: 530px;
+  background-color: #1212;
+}
+#sete img{
+  width: 755px;
+  position: absolute;
+  top: 1415px;
+  left: 640px;
+}
+#sete h1{
+  width: 150px;
+  position: absolute;
+  left: 645px;
+  top: 1840px;
+}
+#sete p{
+  float: left;
+  font-size: 14px;
+  width: 400px;
+  color: #333;
+  margin-top: 0px;
+  position: absolute;
+  left: 800px;
+  top: 1865px;
+}
+#vuite{
+  height: 245px;
+  background-color: #1212;
+}
+#vuite img{
+  width: 640px;
+  position: absolute;
+  top: 2110px;
+  left: 0px;
+}
+#vuite h1{
+  width: 450px;
+  position: absolute;
+  left: 5px;
+  top: 2540px;
+}
+#vuite p{
+  float: left;
+  font-size: 14px;
+  width: 400px;
+  color: #333;
+  margin-top: 0px;
+  position: absolute;
+  left: 205px;
+  top: 2567px;
+}
+#nove{
+  height: 0px;
+  background-color: #1212;
+}
+#nove img{
+  width: 758px;
+  position: absolute;
+  top: 2110px;
+  left: 640px;
+}
+#nove h1{
+  width: 200px;
+  position: absolute;
+  left: 645px;
+  top: 2540px;
+}
+#nove p{
+  float: left;
+  font-size: 14px;
+  width: 400px;
+  color: #333;
+  margin-top: 0px;
+  position: absolute;
+  left: 810px;
+  top: 2567px;
+}
+h3{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+h4{
+padding-left: 5px;
+}
+
+}

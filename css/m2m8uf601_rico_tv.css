@@ -1,0 +1,572 @@
+@media screen and (min-width: 1280px){
+ body{
+  margin: 0;
+  padding: 0;
+  font-family: Nexa Light, Verdana, Futura, Arial;
+  background-color: rgb(0, 164, 223);
+}
+h1, h2, h3, h4{
+  font-family: Nexa Bold, Verdana, Futura, Arial;
+}
+div{
+  overflow: hidden;
+}
+p{
+  width: 400px;
+  font-size: 18px;
+  line-height: 22px;
+}
+h1{
+  width: 400px;
+}
+
+#menu{
+  color: cyan;
+  height: 140px;
+  overflow: visible;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#primer h1{
+  text-align: center;
+  font-size:90px;
+  position: absolute;
+  top: 10px;
+  left: 320px;
+}
+#menu ul{
+  float: right;
+}
+#menu li{
+  width: 480px;
+  color: rgb(0, 164, 223);
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #FFF;
+}
+a:visited{
+  color: #FFF;
+}
+a:hover{
+  color: #000;
+}
+#primer{
+  background-color: rgb(0, 164, 223);
+  width: 100%;
+}
+#primer h1{
+  float: left;
+  font-size: 76px;
+  padding-left: 20px;
+}
+#segon h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#segon p{
+  width: 30%;
+  padding-left: 20px;
+}
+#tercer h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#tercer p{
+  width: 30%;
+  padding-left: 20px;
+}
+#quart h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#quart p{
+  width: 30%;
+  padding-left: 20px;
+}
+#cinque h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#cinque p{
+  padding-left: 20px;
+}
+#sise h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#sise p{
+  width: 30%;
+  padding-left: 20px;
+}
+#sete h1{
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+#sete p{
+  width: 30%;
+  padding-left: 20px;
+}
+#primer #contingut{
+  float: left;
+  width: 30%;
+}
+#primer ul{
+  float: left;
+  width: 30%;
+}
+#primer li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: #FFF;
+}
+a:visited{
+  color: #FFF;
+}
+a:hover{
+  color: rgb(80, 192, 224);
+}
+#segon h1{
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  text-shadow: 10px;
+  z-index: 4;
+}
+#segon img{
+  width: 50%;
+  filter: brightness(0.3);
+  position: absolute;
+  top: 300px;
+  z-index: 1;
+}
+#segon img:hover {
+  filter: brightness(0.5);
+  position: absolute;
+  top: 300px;
+}
+#segon h1:hover {
+  color: rgb(0, 164, 223);
+}
+#tercer h1{
+  position: absolute;
+  top: 55%;
+  left: 60%;
+  z-index: 3;
+}
+#tercer div{
+  width: 480px;
+  height: 50px;
+}
+#tercer img{
+  width: 52%;
+  filter: brightness(0.3);
+  position: relative;
+  z-index: 2;
+}
+#tercer img:hover {
+  filter: brightness(0.5);
+  position: relative;
+}
+#tercer h1:hover {
+  color: rgb(0, 164, 223);
+}
+#quart h1{
+  position: absolute;
+  top: 130%;
+  left: 5%;
+  z-index: 3;
+}
+#quart div{
+  width: 480px;
+  height: 50px;
+}
+#quart img{
+  width: 50%;
+  filter: brightness(0.3);
+  position: absolute;
+  margin-bottom: 250px;
+  z-index: 3;
+}
+#quart img:hover {
+  filter: brightness(0.5);
+  position: absolute;
+}
+#quart h1:hover {
+  color: rgb(0, 164, 223);
+}
+#cinque h1{
+  position: absolute;
+  top: 130%;
+  left: 55%;
+  z-index: 4;
+}
+#cinque div{
+  width: 480px;
+  height: 50px;
+}
+#cinque img{
+  width: 50%;
+  filter: brightness(0.3);
+  position: relative;
+  z-index: 2;
+}
+#cinque img:hover {
+  filter: brightness(0.5);
+  position: relative;
+}
+#cinque h1:hover {
+  color: rgb(0, 164, 223);
+}
+#sise h1{
+  position: absolute;
+  top: 220%;
+  left: 5%;
+  z-index: 4;
+}
+#sise div{
+  width: 480px;
+  height: 50px;
+}
+#sise img{
+  width: 53%;
+  filter: brightness(0.3);
+  position: relative;
+  z-index: 3;
+}
+#sise img:hover {
+  filter: brightness(0.5);
+  position: relative;
+  width: 53%;
+}
+#sise h1:hover {
+  color: rgb(0, 164, 223);
+}
+.blanc{
+  color:#FFF;
+}
+.negre{
+  color:#333;
+}
+#text{
+  float: right;
+  margin-top: 8px;
+}
+#inici{
+  background-color: #6C3;
+  float: right;
+  color: #333;
+  margin-top: 8px;
+  margin-right: 5px;
+  margin-left: 5px;
+
+}
+#fondo{
+  background-color: ivory;
+}
+#menu2{
+  color: #000;
+  height: 40px;
+  background-color: #FFF;
+  overflow: visible;
+}
+#contenidor{
+  height: 580px;
+  text-align: center;
+  background-image: url(img/frame-iphone5.png);
+  background-repeat: no;
+  margin: 0 auto;
+  width: 345px;
+}
+#contrasenya{
+  width: 204px;
+  height: 30px;
+  margin-top: 0px;
+  font-size: 16px;
+  margin-top: 0px;
+}
+#usuari{
+  width: 204px;
+  height: 30px;
+  font-size: 16px;
+}
+#google{
+  background-color: rgb(255, 49, 36);
+  width: 85px;
+  color: #FFF;
+  font-size: 20px;
+  float: right;
+  height: 30px;
+}
+#facebook{
+  background-color: rgb(60, 109, 255);
+  width: 105px;
+  color: #FFF;
+  font-size: 20px;
+  float: right;
+  margin-right: 60px;
+  height: 30px;
+}
+#registrat{
+  font-size: 22px;
+  margin-top: 80px;
+  height: 65px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  margin-left: 90px;
+  width: 200px;
+}
+#camps{
+  margin-top: 50px;
+  clear: both;
+  margin-bottom: 10px;
+  height: 110px;
+  margin-left: 35px;
+}
+#paragraf{
+  width: 300px;
+  height: 30px;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
+}
+#paragraf p{
+  font-size: 14px;
+  width: 80%;
+  margin-left: 75px;
+  height: 100%;
+}
+#email{
+  width: 204px;
+  height: 30px;
+  font-size: 16px;
+}
+#paragraf3{
+  margin-right: 115px;
+  width: 30%;
+  height: 45px;
+  font-size: 16px;
+  float: right;
+  background-color: lightcyan;
+}
+#paragraf3 h1{
+  margin-right: 55px;
+  width: 30%;
+  height: 50px;
+  font-size: 16px;
+  float: right;
+  background-color: lightcyan;
+}
+#paragraf4{
+  margin-left: 85px;
+  width: 60%;
+  clear: both;
+  font-size: 12px;
+}
+
+.fa-tripadvisor{
+  color: lightcyan;
+}
+.fa-camera-retro{
+  color: orange;
+}
+.fa-rocket{
+  color: red;
+}
+
+#publicacio{
+  height: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+#publicacio{
+  height: 700px;
+  margin: 0 auto;
+  width: 900px;
+}
+#integracio{
+  background-color: rgb(230, 230, 230);
+  height: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+#integracio2{
+  height: 700px;
+  margin: 0 auto;
+  width: 900px;
+}
+#colaboracio{
+  height: 700px;
+  margin: 0 auto;
+  width: 900px;
+}
+.grup{
+  width: 280px;
+  height: 220px;
+  float: left;
+  margin: 10px;
+}
+.grup2{
+  width: 280px;
+  height: 220px;
+  float: left;
+  margin: 10px;
+  font-size: 16px;
+}
+.grup3{
+  width: 280px;
+  height: 220px;
+  float: left;
+  margin: 10px;
+}
+#todo{
+  background-color: red;
+}
+#imagen{
+  height: 984px;
+  margin: 0 auto;
+  width: 900px;
+}
+#imagen2{
+  background-color: rgb(230, 230, 230);
+  height: 821px;
+  margin: 0 auto;
+  width: 100%;
+}
+#img3{
+  width: 900px;
+}
+#welcome{
+  width: 500px;
+  height: 150px;
+  margin-left: 148px;
+  margin-top: 10px;
+  text-align: left;
+}
+#start{
+  background-color: #6C3;
+  width: 250px;
+  margin-left: 148px;
+  margin-bottom: 20px;
+}
+h3{
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+}
+h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+h4{
+padding-left: 5px;
+}
+#p1{
+  width: 95%;
+  padding-left: 15px;
+}
+.fa-youtube-play{
+  color: #6C3;
+  margin-left: 5px;
+}
+.fa-google{
+  color: #6C3;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.fa-rss{
+  color: #6C3;
+  margin-left: 6px;
+  margin-top: 4px;
+}
+.fa-lock{
+  color: #6C3;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.fa-map{
+  color: #6C3;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.fa-th{
+  color: #6C3;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+.fa-search{
+  color: #6C3;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.fa-star-o{
+  color: #6C3;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.fa-share{
+  color: #6C3;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.fa-align-left{
+  color: #6C3;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.fa-sitemap{
+  color: #6C3;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.fa-share-alt{
+  color: #6C3;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.fa-file-text-o{
+  color: #6C3;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.fa-steam{
+  color: #6C3;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.fa-sticky-note-o{
+  color: #6C3;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.fa-trello{
+  color: #6C3;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+.fa-slack{
+  color: #6C3;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.fa-bookmark-o{
+  color: #6C3;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+}
